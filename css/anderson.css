@@ -8,7 +8,8 @@ body {
     width: 100%;
     padding: 40px 40px;
     text-align: center;
-    background: url("/img/pegajoso1.jpg");
+    /* background: url("../img/pegajoso1.jpg"); */
+    background: url(../img/pegajoso1.jpg);
     background-color: rgb(146, 112, 112);
     background-size: cover;
     background-position: center;
@@ -32,8 +33,6 @@ body {
     top: 0px;
 }
 
-
-
 .item-options {
     color: #f1f1f1;
     margin: 10px;
@@ -51,12 +50,13 @@ body {
     width: 70%;
 }
 
-.pie{
-	position: sticky;
+.pie {
+    position: sticky;
 }
-footer{
-	padding: 50px 25px 25px 30px;
-	background-color: #8b85856e;
-	background-blend-mode: soft-light;
-	position: sticky;
+
+footer {
+    padding: 50px 25px 25px 30px;
+    background-color: #8b85856e;
+    background-blend-mode: soft-light;
+    position: sticky;
 }
