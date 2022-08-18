@@ -1,0 +1,58 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+body {
+    height: 100vh;
+}
+
+.hero {
+    height: 100%;
+    display: grid;
+    width: 1200px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: auto;
+    /* border: 1px solid red; */
+}
+
+.hero__section {
+    gap: 5rem;
+    display: inherit;
+    text-align: center;
+    grid-template-rows: auto auto;
+    grid-template-columns: inherit;
+}
+
+.hero__section p {
+    font-size: 6rem;
+    font-weight: 700;
+}
+
+.hero__section a {
+    padding: 2rem;
+    font-size: 2rem;
+    font-weight: 700;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    border: solid 1px rgb(255, 255, 255);
+    background-color: rgba(255, 89, 93, 1);
+    transition: font-size .2s ease, top .2s ease;
+}
+
+.hero__section a:hover {
+    padding: 4rem;
+    font-size: 3rem;
+    border-radius: 20px;
+    background-color: rgb(153, 89, 255);
+    transition: font-size .2s ease, top .2s ease;
+}

@@ -1,0 +1,199 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+body {
+    height: 300vh;
+    margin: 0 auto;
+    max-width: 1250px;
+}
+
+img {
+    max-width: 100%;
+}
+
+.header {
+    top: 0;
+    position: sticky;
+}
+
+.nav {
+    display: flex;
+    margin: 1rem 0;
+    justify-content: center;
+}
+
+.nav ul {
+    width: 100%;
+    font-size: 2rem;
+    font-weight: 800;
+    display: inherit;
+    list-style: none;
+    border-radius: 15px;
+    justify-content: center;
+    background-color: blueviolet;
+}
+
+.nav ul li {
+    margin: 0 1rem;
+    padding: 1.2rem;
+    text-decoration: none;
+}
+
+.nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.articleCards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.card {
+    overflow: scroll;
+}
+
+.card img {
+    width: 200px;
+    height: 300px;
+}
+
+.card__elements {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.header__two {
+    top: 0;
+    position: sticky;
+}
+
+.header__three {
+    top: 0;
+    position: sticky;
+}
+
+.header__four {
+    top: 0;
+    position: sticky;
+}
+
+.boxes {
+    border: solid 1px red;
+}
+
+.corner {
+    width: 50px;
+    height: 50px;
+    color: #fff;
+    font-weight: 900;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 20px;
+    background-color: blueviolet;
+}
+
+.corner-1 {
+    position: sticky;
+    bottom: 90%;
+    left: 18.5%;
+}
+
+.corner-2 {
+    position: sticky;
+    bottom: 74%;
+    left: 18.5%;
+}
+
+.corner-3 {
+    position: sticky;
+    bottom: 58%;
+    left: 18.5%;
+}
+
+.corner-4 {
+    position: sticky;
+    bottom: 42%;
+    left: 18.5%;
+}
+
+.corner-5 {
+    position: sticky;
+    bottom: 90%;
+    left: 43.5%;
+}
+
+.corner-6 {
+    position: sticky;
+    bottom: 74%;
+    left: 43.5%;
+}
+
+.corner-7 {
+    position: sticky;
+    bottom: 58%;
+    left: 43.5%;
+}
+
+.corner-8 {
+    position: sticky;
+    bottom: 42%;
+    left: 43.5%;
+}
+
+.corner-9 {
+    position: sticky;
+    bottom: 90%;
+    left: 68.5%;
+}
+
+.corner-10 {
+    position: sticky;
+    bottom: 74%;
+    left: 68.5%;
+}
+
+.corner-11 {
+    position: sticky;
+    bottom: 58%;
+    left: 68.5%;
+}
+
+.corner-12 {
+    position: sticky;
+    bottom: 42%;
+    left: 68.5%;
+}
+
+.corner-13 {
+    position: sticky;
+    bottom: 90%;
+    left: 93.5%;
+}
+
+.corner-14 {
+    position: sticky;
+    bottom: 74%;
+    left: 93.5%;
+}
+
+.corner-15 {
+    position: sticky;
+    bottom: 58%;
+    left: 93.5%;
+}
+
+.corner-16 {
+    position: sticky;
+    bottom: 42%;
+    left: 93.5%;
+}
